@@ -3,7 +3,7 @@ import { collection, addDoc } from 'firebase/firestore';
 import axios from 'axios';
 import {jobData} from './jobData.js'; // Import job data
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBOrP04ALM5YQ3NQHRoc5Q1CAkBiEPmphU'; // Replace with your Google Maps API Key
+const GOOGLE_MAPS_API_KEY = ''; // Replace with your Google Maps API Key
 
 // Function to get lat/lng from Google Geocoding API
 const getLatLng = async (address, postcode) => {
